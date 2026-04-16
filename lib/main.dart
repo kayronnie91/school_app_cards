@@ -130,8 +130,41 @@ class SchoolApp extends StatelessWidget {
                 ),
               )
             ),
-            Container(
 
+            //THIRD ROW //
+
+            Container(
+            decoration: BoxDecoration(
+              border: Border.all(color: Colors.black,
+              width:0.1),
+            ),
+              child:Row(
+                children: [
+                  Container(
+                    height:70,
+                    width:80,
+                    decoration: BoxDecoration(
+                      color:Colors.deepPurple,
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    child: Center(
+                    child: Icon(Icons.calendar_month_outlined,
+                    color: Colors.white,
+                      size:26,
+                    )
+                    )
+                  ),
+                  Text('Schedule',
+                  style: TextStyle(
+                    fontWeight: FontWeight(600),
+                    fontSize: 20,
+                  ),
+                  ),
+
+
+
+                ],
+              )
             )
 
 
