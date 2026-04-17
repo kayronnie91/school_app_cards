@@ -221,8 +221,39 @@ class SchoolApp extends StatelessWidget {
                     ],
                   ),
                 )
+              ),
 
-              )
+              // NEW exam //
+
+                Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Container(
+                    // height:80,// DO NOT GIVE FIXED HEIGHT //
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color:Colors.grey,
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('Exam Name'),
+                              SizedBox(height: 2),
+                              Text('First Semester'),
+                            ],
+                                    ),
+                          Text('Date: 21-09-2022'),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+
 
 
             ],
