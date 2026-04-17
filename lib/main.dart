@@ -244,7 +244,12 @@ class SchoolApp extends StatelessWidget {
                             children: [
                               Text('Exam Name'),
                               SizedBox(height: 2),
-                              Text('First Semester'),
+                              Text('First Semester',
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight(700),
+                              ),
+                              ),
                             ],
                                     ),
                           Text('Date: 21-09-2022'),
